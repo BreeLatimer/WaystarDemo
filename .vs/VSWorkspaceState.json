@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\.github",
+    "\\.github\\workflows",
     "\\WaystarDemo"
   ],
-  "SelectedNode": "\\WaystarDemo\\Dockerfile",
+  "SelectedNode": "\\.github\\workflows\\pipeline.yml",
   "PreviewInSolutionExplorer": false
 }
