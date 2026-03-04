@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="WaystarDemo.Tests/WaystarDemo.Tests.csproj" />
+  <Project Path="WaystarDemo/WaystarDemo.csproj" />
+</Solution>
