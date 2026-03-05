@@ -41,14 +41,14 @@ jobs:
       - name: Push Docker image
         run: docker push ghcr.io/breelatimer/waystar-demo:latest
 
-    trigger-harness:
-      needs: build-docker
-      runs-on: ubuntu-latest
-      steps:
-        - name: Trigger Harness Deployment
-          run: |
-            curl -X POST \
-              https://app.harness.io/pipeline/api/pipeline/execute/${{ secrets.HARNESS_PIPELINE_ID }}?accountIdentifier=FsykwSfKQyqpQywgVsF4pw&orgIdentifier=default&projectIdentifier=default_project \
-              -H "x-api-key: ${{ secrets.HARNESS_API_KEY }}" \
-              -H "Content-Type: application/yaml" \
-              --data-raw 'pipeline: {}'
+  trigger-harness:
+    needs: build-docker
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Harness Deployment
+        run: |
+          curl -X POST \
+            https://app.harness.io/pipeline/api/pipeline/execute/${{ secrets.HARNESS_PIPELINE_ID }}?accountIdentifier=FsykwSfKQyqpQywgVsF4pw&orgIdentifier=default&projectIdentifier=default_project \
+            -H "x-api-key: ${{ secrets.HARNESS_API_KEY }}" \
+            -H "Content-Type: application/yaml" \
+            --data-raw 'pipeline: {}'
