@@ -1,19 +1,12 @@
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: v1
+kind: Service
 metadata:
   name: waystar-demo
 spec:
-  replicas: 1
   selector:
-    matchLabels:
-      app: waystar-demo
-  template:
-    metadata:
-      labels:
-        app: waystar-demo
-    spec:
-      containers:
-        - name: waystar-demo
-          image: ghcr.io/breelatimer/waystar-demo:latest
-          ports:
-            - containerPort: 8080
+    app: waystar-demo
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+  type: ClusterIP
