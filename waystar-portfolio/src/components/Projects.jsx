@@ -38,7 +38,7 @@ const projects = [
           What I've <span className="text-[#FF6900]">built.</span>
         </h2>
   
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 pb-24">
           {projects.map(p => (
             <div key={p.title} className="bg-[#141414] border border-white/5 rounded-xl p-6 flex flex-col hover:-translate-y-1 hover:border-[#FF6900]/50 hover:shadow-[0_16px_48px_rgba(0,0,0,0.5)] transition-all relative overflow-hidden group">
               <div className="absolute top-0 left-0 right-0 h-0.5 bg-[#FF6900] scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300" />

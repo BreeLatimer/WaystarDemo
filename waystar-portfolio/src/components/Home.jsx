@@ -21,8 +21,8 @@ export default function Home({ setActive }) {
           </h1>
   
           <p className="text-gray-400 text-lg leading-relaxed max-w-2xl mb-4">
-            DevOps Engineer specializing in CI/CD pipelines, Kubernetes deployments, and zero-downtime delivery.
-            I built this entire portfolio — including its deployment pipeline — specifically to demonstrate
+            Hi there! I'm Bree, a DevOps Engineer specializing in CI/CD pipelines and zero-downtime delivery.
+            I built this site to serve as a portfolio to demonstrate the deployment pipeline I have built, specifically to demonstrate
             what I can bring to the Waystar team.
           </p>
   
@@ -40,9 +40,9 @@ export default function Home({ setActive }) {
             </div>
             <div className="text-xl font-bold mb-2">End-to-End CI/CD Pipeline</div>
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
-              A production-grade pipeline built with GitHub Actions and Harness — automatically building,
-              testing, containerizing, and deploying to Kubernetes with zero-downtime blue/green releases.
-              The same stack Waystar runs in production.
+              A production-grade pipeline built with GitHub Actions and Harness. Automatically builds,
+              tests, containerizes, and deploys to Kubernetes with zero-downtime blue/green releases.
+              I built this pipline to mirror the same stack Waystar runs in production as closely as I can.
             </p>
   
             {/* Mini pipeline flow */}
@@ -87,22 +87,6 @@ export default function Home({ setActive }) {
               🎮 Play a game
             </button>
           </div>
-  
-          {/* Stats */}
-          <div className="flex flex-wrap gap-12 pt-8 border-t border-[#FF6900]/20">
-            {[
-              { num: '55+', label: 'Hours saved / month' },
-              { num: '300+', label: 'Users impacted' },
-              { num: '4+', label: 'Years experience' },
-              { num: '100%', label: 'Pipeline passing' },
-            ].map(stat => (
-              <div key={stat.label}>
-                <div className="text-4xl font-extrabold text-[#FF6900]">{stat.num}</div>
-                <div className="font-mono text-xs text-gray-500 uppercase tracking-widest mt-1">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-  
         </div>
       </div>
     )
