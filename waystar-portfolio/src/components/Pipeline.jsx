@@ -67,7 +67,7 @@ export default function Projects() {
         Pipeline Project
       </div>
       <h2 className="text-5xl font-extrabold tracking-tight mb-16">
-        What I've <span className="text-[#FF6900]">built.</span>
+        Code Commit to <span className="text-[#72a4d4]">Blue</span>/<span className="text-[#a4d472]">Green</span> Deployment.
       </h2>
 
       {/* Featured Project */}
@@ -78,14 +78,15 @@ export default function Projects() {
           <div className="flex items-center justify-between flex-wrap gap-3 mb-3">
             <div className="font-mono text-xs text-[#FF6900] uppercase tracking-widest">Featured · 2026</div>
             <div className="flex items-center gap-2 font-mono text-xs text-green-400">
-              <div className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse"></div>
-              Pipeline passing
+              <a href="https://github.com/BreeLatimer/WaystarDemo/actions/workflows/pipeline.yml" target="_blank" rel="noopener noreferrer">
+                <img src="https://github.com/BreeLatimer/WaystarDemo/actions/workflows/pipeline.yml/badge.svg" alt="CI Pipeline" />
+              </a>
             </div>
           </div>
           <h3 className="text-2xl font-extrabold mb-2">WaystarDemo CI/CD Pipeline</h3>
           <p className="text-gray-400 text-sm leading-relaxed max-w-2xl">
-            A production-style CI/CD pipeline built with .NET 8, Docker, GitHub Actions, and Harness — 
-            showcasing a complete path from code commit to blue/green deployment on Kubernetes. 
+            A production-style CI/CD pipeline built with .NET 8, Docker, GitHub Actions, and Harness. 
+            Shows a complete path from code commit to blue/green deployment on Kubernetes. 
             This portfolio site is deployed through the same pipeline it documents.
           </p>
           <a
@@ -112,9 +113,9 @@ export default function Projects() {
                 <p className="text-xs text-gray-500 mb-3">On every push to main:</p>
                 <ol className="space-y-2">
                   {[
-                    'Build & Test — Restores dependencies, compiles, and runs xUnit tests',
-                    'Docker Build — Only runs if tests pass (job dependency gate)',
-                    'Push to Registry — Publishes image to GitHub Container Registry',
+                    'Build & Test: Restores dependencies, compiles, and runs xUnit tests',
+                    'Docker Build: Only runs if tests pass (job dependency gate)',
+                    'Push to Registry: Publishes image to GitHub Container Registry',
                   ].map((item, i) => (
                     <li key={i} className="flex gap-3 text-sm text-gray-400">
                       <span className="text-[#FF6900] font-mono text-xs flex-shrink-0">{i + 1}.</span>

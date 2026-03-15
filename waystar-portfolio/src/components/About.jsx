@@ -1,10 +1,9 @@
 const timeline = [
-    { year: '~2013', title: 'Fell in love with programming', detail: '6th grade. First line of code. Never stopped.' },
-    { year: '2019–2023', title: 'B.S. Computer Science — Boise State', detail: 'KKPsi elected leader. Navigated personal challenges with grit and grace.' },
-    { year: '2021–2023', title: 'Software Engineer Intern — SEL', detail: 'Python automation saving 55+ hrs/month. C#/.NET on critical electrical infrastructure.' },
-    { year: '2023–2025', title: 'DevOps Lead — Idaho State Controller', detail: 'Led SDLC modernization. Atlassian Cloud migration. Agile transformation affecting 300+ users statewide.' },
-    { year: '2024', title: 'Moved to Louisville, KY', detail: 'New city. New chapter. Eyes on the skyline.' },
-    { year: '2026', title: 'M.S. Computer Science — UofL ✓', detail: 'Admitted. First generation graduate student. Speed School of Engineering.' },
+    { year: '2019–2023', title: 'B.S. Computer Science — Boise State', detail: 'KKPsi elected leader, marching band member, and Computer Science graduate!' },
+    { year: '2021–2023', title: 'Software Engineer Intern — SEL', detail: 'Python automation saving 55+ hrs/month. C#/.NET experience on critical electrical infrastructure.' },
+    { year: '2023–2025', title: 'DevOps Lead — Idaho State Controller', detail: 'Led SDLC modernization, Atlassian Cloud integratsion, and an Agile transformation, changing how the state does software development on their payroll system.' },
+    { year: '2024', title: 'Moved to Louisville, KY', detail: 'New city and new beginnings!' },
+    { year: '2026', title: 'M.S. Computer Science — University of Louisville', detail: 'Admitted. First generation graduate student. Speed School of Engineering.' },
     { year: 'Next', title: 'Cloud Architect', detail: 'The destination. Working toward it every day.', muted: true },
   ]
   
@@ -26,23 +25,21 @@ const timeline = [
               About
             </div>
             <h2 className="text-5xl font-extrabold tracking-tight leading-tight mb-6">
-              Engineer by nature.<br />
-              <span className="text-[#FF6900]">Problem solver</span><br />
-              by choice.
+              Software Engineer and DevOps Leader
             </h2>
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
-              I've been building things since the 6th grade. Today I specialize in DevOps —
-              designing the systems that help teams ship faster and more reliably.
+              I've been building things since the 6th grade. Today I specialize in DevOps
+              and designing systems that help teams ship faster and more reliably.
             </p>
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
-              I led a year-long SDLC modernization for the State of Idaho, built automation saving
+              I led a year-long SDLC modernization for the State of Idaho, built an automation script at my internship, saving
               55+ hours per month, and recently built this entire CI/CD pipeline from scratch.
-              I'm pursuing my M.S. in Computer Science at the University of Louisville —
+              I'm pursuing my M.S. in Computer Science at the University of Louisville. I am
               the first person in my family to attend graduate school.
             </p>
             <p className="text-gray-400 text-sm leading-relaxed mb-8">
               I'm an advocate, a servant leader, and someone who
-              genuinely loves the craft of engineering — not just the output of it.
+              genuinely loves the craft of engineering.
             </p>
   
             <div className="border-t border-[#FF6900]/20 pt-6">

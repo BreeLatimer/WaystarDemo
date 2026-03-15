@@ -2,27 +2,27 @@ const projects = [
     {
       meta: 'Featured · 2026',
       title: 'WaystarDemo CI/CD Pipeline',
-      desc: 'Full end-to-end pipeline from code commit to blue/green Kubernetes deployment. Built with GitHub Actions, Harness, Docker, and .NET 8. This very site runs through it — every update automatically builds, tests, containerizes, and deploys.',
+      desc: 'Full end-to-end pipeline from code commit to blue/green Kubernetes deployment. Built with GitHub Actions, Harness, Docker, and .NET 8. This very site runs through it, every update automatically builds, tests, containerizes, and deploys.',
       tags: ['.NET 8', 'Docker', 'GitHub Actions', 'Harness', 'Kubernetes', 'Blue/Green', 'xUnit'],
       link: 'https://github.com/BreeLatimer/WaystarDemo',
     },
     {
       meta: 'Idaho State Controller · 2023–2025',
       title: 'SDLC Modernization & Atlassian Migration',
-      desc: 'Led a year-long transformation of Idaho\'s software development lifecycle from ITIL to Agile/DevOps. Migrated from ServiceNow to Atlassian Cloud. 100+ forms, 300+ users, 4 teams, cross-functional stakeholder alignment.',
+      desc: 'Led a year-long transformation of Idaho\'s software development lifecycle from ITIL to Agile/DevOps. Migrated development and project organization tools from ServiceNow to Atlassian Cloud.',
       tags: ['Atlassian Cloud', 'Jira', 'Agile', 'ITIL', 'Change Mgmt', 'ServiceNow'],
     },
     {
         meta: 'Boise State Senior Design · 2023',
-        title: 'Totalled — Expense Breakdown Tool',
-        desc: 'Built with a team of 4 for the Boise State Mechanical & Biomedical Engineering Department. A Kotlin desktop app that ingests Excel workbooks of spending and team data, analyzes and groups expenses, and generates team-based invoice breakdowns for project sponsors.',
+        title: 'Totalled: Expense Breakdown Tool',
+        desc: 'Built with a team of 4 for the Boise State Mechanical & Biomedical Engineering Department. A Kotlin desktop app that uses Excel workbooks of spending and team data, analyzes and groups expenses, and generates team-based invoice breakdowns for project sponsors.',
         tags: ['Kotlin', 'Gradle', 'Desktop App', 'Excel Automation', 'GitHub Actions', 'CI/CD'],
         link: 'https://github.com/cs481-ekh/s23-totalled',
       },
     {
       meta: 'SEL · 2021–2023',
       title: 'Python Automation Tool',
-      desc: 'Built automation that saved 55+ hours per month — recovering a full work week every month. Deployed as part of production software on critical electrical infrastructure used globally.',
+      desc: 'Built an automation tool that saved 55+ hours per month. Deployed as part of production software on critical electrical infrastructure used globally.',
       tags: ['Python', 'Automation', 'C#/.NET', 'NUnit', 'Critical Infrastructure'],
     },
   ]

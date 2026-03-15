@@ -56,7 +56,7 @@ export default function Nav({ active, setActive }) {
             </button>
           ))}
           <a href="https://github.com/BreeLatimer/WaystarDemo/actions/workflows/pipeline.yml" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.shields.io/github/actions/workflow/status/BreeLatimer/WaystarDemo/pipeline.yml?branch=main&style=flat&logo=github&label=Pipeline&color=FF6900" alt="CI Pipeline" />
+            <img src="https://github.com/BreeLatimer/WaystarDemo/actions/workflows/pipeline.yml/badge.svg" alt="CI Pipeline" />
           </a>
         </div>
       )}

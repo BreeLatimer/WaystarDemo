@@ -17,7 +17,7 @@ export default function Home({ setActive }) {
           {/* Hero headline */}
           <h1 className="text-6xl md:text-8xl font-extrabold leading-none tracking-tight mb-6">
             Bree<br />
-            <span className="text-[#FF6900]">Latimer.</span>
+            <span className="text-[#FF6900]">Latimer</span>
           </h1>
   
           <p className="text-gray-400 text-lg leading-relaxed max-w-2xl mb-4">
@@ -34,8 +34,9 @@ export default function Home({ setActive }) {
             <div className="flex items-center justify-between mb-3">
               <div className="font-mono text-xs text-[#FF6900] uppercase tracking-widest">Featured Project</div>
               <div className="flex items-center gap-2 font-mono text-xs text-green-400">
-                <div className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse"></div>
-                Pipeline passing
+                <a href="https://github.com/BreeLatimer/WaystarDemo/actions/workflows/pipeline.yml" target="_blank" rel="noopener noreferrer">
+                  <img src="https://github.com/BreeLatimer/WaystarDemo/actions/workflows/pipeline.yml/badge.svg" alt="CI Pipeline" />
+                </a>
               </div>
             </div>
             <div className="text-xl font-bold mb-2">End-to-End CI/CD Pipeline</div>
