@@ -10,6 +10,10 @@ This project demonstrates a full software delivery pipeline for a .NET 8 Web API
 
 ---
 
+[![CI Pipeline](https://github.com/BreeLatimer/WaystarDemo/actions/workflows/pipeline.yml/badge.svg)](https://github.com/BreeLatimer/WaystarDemo/actions/workflows/pipeline.yml)
+
+---
+
 ## Tech Stack
 
 | Layer | Technology |
