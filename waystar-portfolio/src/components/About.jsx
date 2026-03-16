@@ -28,8 +28,10 @@ const timeline = [
               Software Engineer and DevOps Leader
             </h2>
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
-              I've been building things since the 6th grade. Today I specialize in DevOps
+              I specialize in DevOps practices
               and designing systems that help teams ship faster and more reliably.
+              I've built internal automation tools, overhauled state government workflows, and worked hands-on with
+              CI/CD pipelines.
             </p>
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
               I led a year-long SDLC modernization for the State of Idaho, built an automation script at my internship, saving
