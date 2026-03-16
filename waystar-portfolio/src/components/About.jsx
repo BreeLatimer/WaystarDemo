@@ -29,9 +29,7 @@ const timeline = [
             </h2>
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
               I specialize in DevOps practices
-              and designing systems that help teams ship faster and more reliably.
-              I've built internal automation tools, overhauled state government workflows, and worked hands-on with
-              CI/CD pipelines.
+              and designing systems that help teams ship faster and more reliably!
             </p>
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
               I led a year-long SDLC modernization for the State of Idaho, built an automation script at my internship, saving
